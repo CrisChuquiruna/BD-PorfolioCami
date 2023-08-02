@@ -3,7 +3,7 @@ import cors from 'cors'
 import axios from 'axios'
 import dotenv from 'dotenv'
 
-const PORT = PORT.env.process || 8000
+const PORT = process.env.PORT || 8000
 dotenv.config()
 
 const app = express()
